@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-22T08:43:57 IST" name="Default suite" finished-at="2025-04-22T08:44:01 IST" duration-ms="4475">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T08:43:57 IST" name="Default test" finished-at="2025-04-22T08:44:01 IST" duration-ms="4475">
+      <class name="testCases.TC002LoginWithInvalidDetailsTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="startReport" finished-at="2025-04-22T08:43:57 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="testcaseDetails" finished-at="2025-04-22T08:43:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDetails -->
+        <test-method is-config="true" signature="detail()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="detail" finished-at="2025-04-22T08:43:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="setUp" finished-at="2025-04-22T08:44:00 IST" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_LoginwithInvalidDetailsTest()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:00 IST" name="TC002_LoginwithInvalidDetailsTest" finished-at="2025-04-22T08:44:01 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_LoginwithInvalidDetailsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:01 IST" name="teardown" finished-at="2025-04-22T08:44:01 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:01 IST" name="endReport" finished-at="2025-04-22T08:44:01 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testCases.TC002LoginWithInvalidDetailsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
