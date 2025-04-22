@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T08:43:57 IST" name="Default suite" finished-at="2025-04-22T08:44:01 IST" duration-ms="4475">
+  <suite started-at="2025-04-22T11:01:31 IST" name="Default suite" finished-at="2025-04-22T11:01:40 IST" duration-ms="8862">
     <groups>
     </groups>
-    <test started-at="2025-04-22T08:43:57 IST" name="Default test" finished-at="2025-04-22T08:44:01 IST" duration-ms="4475">
-      <class name="testCases.TC002LoginWithInvalidDetailsTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="startReport" finished-at="2025-04-22T08:43:57 IST" duration-ms="49" status="PASS">
+    <test started-at="2025-04-22T11:01:31 IST" name="Default test" finished-at="2025-04-22T11:01:40 IST" duration-ms="8862">
+      <class name="testCases.TC001LoginPageTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:31 IST" name="startReport" finished-at="2025-04-22T11:01:31 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="testcaseDetails" finished-at="2025-04-22T08:43:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testcaseDetails()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:31 IST" name="testcaseDetails" finished-at="2025-04-22T11:01:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcaseDetails -->
-        <test-method is-config="true" signature="detail()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="detail" finished-at="2025-04-22T08:43:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="detail()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:31 IST" name="detail" finished-at="2025-04-22T11:01:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- detail -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:43:57 IST" name="setUp" finished-at="2025-04-22T08:44:00 IST" duration-ms="3715" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:31 IST" name="setUp" finished-at="2025-04-22T11:01:36 IST" duration-ms="4773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC002_LoginwithInvalidDetailsTest()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:00 IST" name="TC002_LoginwithInvalidDetailsTest" finished-at="2025-04-22T08:44:01 IST" duration-ms="662" status="PASS">
+        <test-method signature="TC001_LoginTest()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:36 IST" name="TC001_LoginTest" finished-at="2025-04-22T11:01:40 IST" duration-ms="3988" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC002_LoginwithInvalidDetailsTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:01 IST" name="teardown" finished-at="2025-04-22T08:44:01 IST" duration-ms="86" status="PASS">
+        </test-method> <!-- TC001_LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:40 IST" name="teardown" finished-at="2025-04-22T11:01:40 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:testCases.TC002LoginWithInvalidDetailsTest@5e5073ab]" started-at="2025-04-22T08:44:01 IST" name="endReport" finished-at="2025-04-22T08:44:01 IST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testCases.TC001LoginPageTest@38018b62]" started-at="2025-04-22T11:01:40 IST" name="endReport" finished-at="2025-04-22T11:01:40 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- testCases.TC002LoginWithInvalidDetailsTest -->
+      </class> <!-- testCases.TC001LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

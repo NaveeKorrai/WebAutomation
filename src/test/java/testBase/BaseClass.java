@@ -25,7 +25,7 @@ public class BaseClass extends UtilClass {
 	@BeforeSuite
 	public void startReport() {
 	    String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HH.mm.ss").format(new Date()); // fixed date format for file naming
-	    String reportPath = System.getProperty("user.dir") + "/Reports/Result : " + timeStamp + ".html";
+	    String reportPath = System.getProperty("user.dir") + "/Reports/Result - " + timeStamp + ".html";
 	    File reportDir = new File(System.getProperty("user.dir") + "/Reports");
 	    if (!reportDir.exists()) {
 	        reportDir.mkdirs();
