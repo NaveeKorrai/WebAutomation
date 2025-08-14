@@ -36,10 +36,10 @@ public class BookingPage extends BaseClass {
 	@FindBy(xpath= "(//div[@class='css-1dbjc4n r-1awozwy r-14lw9ot r-1loqt21 r-17b3b9k r-1otgn73 r-1aockid'])[21]")
 	private WebElement datefordeparture;
 
-	@FindBy(xpath = "//div[@data-testid='undefined-month-May-2025']//div[@class='css-1dbjc4n']/div[4]/div[5]")
+	@FindBy(xpath = "(//div[@class='css-76zvg2 r-homxoj r-ubezar r-16dba41' and text()='30'])[1]")
 	private WebElement roundtripdatedeparture;
 
-	@FindBy(xpath = "//div[@data-testid='undefined-month-May-2025']//div[@class='css-1dbjc4n']/div[4]/div[7]")
+	@FindBy(xpath = "(//div[@class='css-76zvg2 r-homxoj r-ubezar r-16dba41' and text()='30'])[1]")
 	private WebElement roundtripdatereturn;
 
 	@FindBy(xpath = "//div[contains(text(),'Passengers')]")
@@ -132,8 +132,6 @@ public class BookingPage extends BaseClass {
 	public String managebookingtext() {
 		return managebookingTab.getText();
 	}
-
-
 
 	public String onewaytripText() {
 		return searchResultText.getText();

@@ -6,12 +6,12 @@
       <class name="testCases.TC002LoginWithInvalidDetailsTest">
         <methods>
           <include name="teardown"/>
+          <include name="TC002_LoginTest"/>
           <include name="testcaseDetails"/>
           <include name="detail"/>
           <include name="setUp"/>
           <include name="startReport"/>
-          <include name="endReport"/>
-          <include name="TC002_LoginwithInvalidDetailsTest"/>
+          <include name="flushReport"/>
         </methods>
       </class> <!-- testCases.TC002LoginWithInvalidDetailsTest -->
     </classes>

@@ -26,9 +26,9 @@ public class TC008RoundTripBookingTest extends BaseClass {
 		bookingpage.roundtripBooking();
 		PassengerDetailsPage details = new PassengerDetailsPage();
 		details.passengerDetails();
-		Assert.assertEquals(details.paymenterrorText(), "Something went wrong. Please try again after sometime.");
+		Assert.assertEquals(details.paymenterrorText(), "Either Card Number or Card Pin is Incorrect.");
 		takeScreenshot("TC008_roundtripbookingTest");
-		if (details.paymenterrorText().contains("Something went wrong. Please try again after sometime.")) {
+		if (details.paymenterrorText().contains("Either Card Number or Card Pin is Incorrect.")) {
 			test.pass("Flight booking test passed");
 		} else
 			test.fail("Flight Booking test failed");
