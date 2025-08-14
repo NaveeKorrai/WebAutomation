@@ -32,3 +32,4 @@ public class TC006SearchForFlightRoundTripTest extends BaseClass {
 	}
 
 }
+

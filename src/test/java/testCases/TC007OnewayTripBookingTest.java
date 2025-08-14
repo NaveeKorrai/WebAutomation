@@ -18,7 +18,6 @@ public class TC007OnewayTripBookingTest extends BaseClass {
 		testDescription = "Booking a flight for oneway trip by providing passenger and payment details";
 		testAuthor = "Naveen Korrai";
 	}
-
 	@Test
 	public void TC007_onewaytripbookingTest() throws InterruptedException, IOException {
 		BookingPage bookingpage = new BookingPage();

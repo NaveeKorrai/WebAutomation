@@ -30,3 +30,4 @@ public class TC012FlightStatusTest extends BaseClass {
 			test.fail("Flight Status test failed");
 	}
 }
+

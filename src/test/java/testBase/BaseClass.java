@@ -29,28 +29,9 @@ public class BaseClass extends UtilClass {
 	//protected static Logger logger = LogManager.getLogger();
 	protected Logger logger = LogManager.getLogger(getClass());
 	public static String reportPath;
-	//	public static ExtentReports extent;
-	//	public static ExtentSparkReporter sparkReporter;
-
 	public static ExtentReports extent;
 	public static ExtentSparkReporter sparkReporter;
 	public static ExtentTest test; // For logging steps in report
-	//public static Logger logger = LogManager.getLogger(BaseTest.class);
-
-
-	//	@BeforeSuite
-	//	public void startReport() {
-	//	    String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HH.mm.ss").format(new Date()); // fixed date format for file naming
-	//	    String reportPath = System.getProperty("user.dir") + "/Reports/Result - " + timeStamp + ".html";
-	//	    File reportDir = new File(System.getProperty("user.dir") + "/Reports");
-	//	    if (!reportDir.exists()) {
-	//	        reportDir.mkdirs();
-	//	    }
-	//	    ExtentHtmlReporter reporter = new ExtentHtmlReporter(reportPath);
-	//	    reporter.setAppendExisting(false);
-	//	    extent = new ExtentReports();
-	//	    extent.attachReporter(reporter);
-	//	}
 
 	@BeforeSuite
 	public void startReport() throws Exception {

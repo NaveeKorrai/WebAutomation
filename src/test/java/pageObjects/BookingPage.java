@@ -12,8 +12,7 @@ public class BookingPage extends BaseClass {
 	@FindBy(xpath = "//div[@data-testid='check-in-horizontal-nav-tabs']")
 	private WebElement checkinTab;
 
-	@FindBy(xpath = "//div[@data-testid='flight status-horizontal-nav-tabs']")
-	private WebElement flightstatusTab;
+	@FindBy(xpath = "//div[@data-testid='flight status-horizontal-nav-tabs']")	private WebElement flightstatusTab;
 
 	@FindBy(xpath = "//div[@data-testid='manage booking-horizontal-nav-tabs']")
 	private WebElement managebookingTab;

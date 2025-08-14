@@ -90,6 +90,7 @@ public class LoginPage extends BaseClass{
 	        throw new RuntimeException("Failed to perform login action.", e);
 	    }
 	}
+	
 	public boolean isLoginSuccessful() {
         try {
             // Find an element that only appears after a successful login

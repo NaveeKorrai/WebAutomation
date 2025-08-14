@@ -16,7 +16,7 @@ public class TC001LoginPageTest extends BaseClass {
 		testName = "TC001_LoginwithValidDetailsTest";
 		testDescription = "Login to Spicejet website with valid credentials";
 		testAuthor = "Naveen";
-		//test = extent.createTest(testName).assignAuthor(testAuthor);
+		
 	}
 	@Test
 	public void TC001_LoginTest() throws Exception {

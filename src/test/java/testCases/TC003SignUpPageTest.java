@@ -17,7 +17,6 @@ public class TC003SignUpPageTest extends BaseClass {
 		testDescription = "Creating an account to SignUp to Spicejet website";
 		testAuthor = "Naveen Korrai";
 	}
-
 	@Test
 	public void TC003_SignUpPageTest() throws InterruptedException, IOException {
 		SignUpPage signup = new SignUpPage();

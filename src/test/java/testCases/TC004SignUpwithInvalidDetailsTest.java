@@ -17,7 +17,6 @@ public class TC004SignUpwithInvalidDetailsTest extends BaseClass {
 		testDescription = "Create an account on Spicejet website with invalid credentials";
 		testAuthor = "Naveen";
 	}
-	
 	@Test
 	public void TC004_SignUpwithInvalidDetails() throws IOException, InterruptedException {
 		

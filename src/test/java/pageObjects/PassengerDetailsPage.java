@@ -218,7 +218,6 @@ public class PassengerDetailsPage extends BaseClass {
 		wait(balancegift);
 		balancegift.click();
 		implicitWait();
-
 	}
 
 

@@ -10,7 +10,6 @@ public class CharterPage extends BaseClass {
 	String sourceCity="Vishakhapatnam (VTZ)";
 	String destinationCity="Boa Vista (BVB)";
 
-
 	//Charter
 	@FindBy(xpath = "//div[text()='Book your Charter']")
 	private WebElement bookYourCharter;
@@ -202,7 +201,6 @@ public class CharterPage extends BaseClass {
 		scrollToElement(destination);
 		Thread.sleep(1000);
 		NameMandatory();
-
 		mobileNoMandatory();
 		mailMandatory();
 		cityMandatory();

@@ -29,3 +29,4 @@ public class TC010BookingPageNavigationTabsTest extends BaseClass {
 	}
 
 }
+

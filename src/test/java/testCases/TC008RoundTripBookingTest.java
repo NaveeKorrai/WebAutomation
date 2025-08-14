@@ -18,10 +18,8 @@ public class TC008RoundTripBookingTest extends BaseClass {
 		testDescription = "Booking a flight for round way trip by providing passenger and payment details";
 		testAuthor = "Naveen";
 	}
-
 	@Test
-	public void TC008_roundtripbookingTest() throws InterruptedException, IOException {
-		
+	public void TC008_roundtripbookingTest() throws InterruptedException, IOException {	
 		BookingPage bookingpage = new BookingPage();
 		bookingpage.roundtripBooking();
 		PassengerDetailsPage details = new PassengerDetailsPage();

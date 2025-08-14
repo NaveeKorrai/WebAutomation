@@ -14,7 +14,6 @@ public class SignUpPage extends BaseClass {
 
 	@FindBy(xpath = "//div[contains(text(),'Signup')]")
 	private WebElement signUpLink;
-
 	@FindBy(xpath = "(//select[contains(@class,'form-control form-select')])[1]")
 	private WebElement title;
 

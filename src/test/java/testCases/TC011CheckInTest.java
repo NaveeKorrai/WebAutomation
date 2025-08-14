@@ -30,3 +30,4 @@ public class TC011CheckInTest extends BaseClass {
 			test.fail("Flight checkIn test failed");
 	}
 }
+
