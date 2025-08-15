@@ -24,8 +24,6 @@ public class TC013BookYourCharterTest extends BaseClass {
 		//this line is to work with charter page
 		charter.charterStatus();
 		
-		takeScreenshot("TC013_BookYourCharter");
-
-	}
+		takeScreenshot("TC013_BookYourCharter");}
 }
 

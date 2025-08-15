@@ -26,8 +26,6 @@ public class TC014CharterpageValidations extends BaseClass {
 		Assert.assertEquals("Please enter valid email", charter.mailMandatory());
 		Assert.assertEquals("Please enter valid mobile number", charter.mobileNoMandatory());
 		Assert.assertEquals("Please enter valid city", charter.cityMandatory());
-		takeScreenshot("TC014_BookYourCharter");
-
-	}
+		takeScreenshot("TC014_BookYourCharter");}
 }
 

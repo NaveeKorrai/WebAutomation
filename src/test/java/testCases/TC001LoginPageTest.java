@@ -41,7 +41,7 @@ public class TC001LoginPageTest extends BaseClass {
 		}
 		takeScreenshot("TC001_LoginTest");
 		test.addScreenCaptureFromPath("./screenshots/TC001_LoginTest.png");
-		logStep("Screenshot added to report");
+		logStep("Screenshot added to report!");
 
 		Assert.assertTrue(actualText.contains(testAuthor), "Login test failed");
 		logStep("Verified login contains author name: " + testAuthor);

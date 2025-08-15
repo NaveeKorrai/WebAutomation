@@ -27,7 +27,6 @@ public class TC011CheckInTest extends BaseClass {
 		if (bookingpage.checkInErrorText().contains("Unable to fetch your booking.")) {
 			test.pass("Flight checkIn test passed");
 		} else
-			test.fail("Flight checkIn test failed");
-	}
+			test.fail("Flight checkIn test failed");}
 }
 

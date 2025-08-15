@@ -27,7 +27,7 @@ public class TC006SearchForFlightRoundTripTest extends BaseClass {
 		if (bookingpage.roundtripText().contains("Mumbai to Bengaluru")) {
 			test.pass("Round trip flight search test passed");
 		} else
-			test.fail("Round trip flight search test failed");
+			test.fail("Round trip flight search test failed!");
 
 	}
 

@@ -59,7 +59,6 @@ public class TC002LoginWithInvalidDetailsTest extends BaseClass {
                 data[i - 1][j] = UtilClass.getCellData(i, j);
             }
         }
-        
         return data;
     }
 }

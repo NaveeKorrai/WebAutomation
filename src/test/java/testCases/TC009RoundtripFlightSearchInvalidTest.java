@@ -27,7 +27,7 @@ public class TC009RoundtripFlightSearchInvalidTest extends BaseClass {
 		if (bookingpage.roundtripErrorText().contains("Please select a date for the return trip")) {
 			test.pass("Round trip Flight search with invalid search deatils test passed");
 		} else
-			test.fail("Round trip Flight search with invalid search deatils test failed");
+			test.fail("Round trip Flight search with invalid search deatils test failed.");
 	}
 }
 

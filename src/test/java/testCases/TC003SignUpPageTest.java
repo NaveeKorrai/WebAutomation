@@ -26,7 +26,7 @@ public class TC003SignUpPageTest extends BaseClass {
 		if (signup.signInText().contains("OTP Verification")) {
 			test.pass("SignUp test passed");
 		} else
-			test.fail("SignUp test failed");
+			test.fail("SignUp test failed!");
 
 	}
 

@@ -27,6 +27,6 @@ public class TC005SearchforFlightOnewayTest extends BaseClass {
 		if (bookingpage.onewaytripText().contains("Mumbai to Kolkata")) {
 			test.pass("Oneway Flight search test passed");
 		} else
-			test.fail("Oneway Flight search test failed");
+			test.fail("Oneway Flight search test failed!");
 	}
 }

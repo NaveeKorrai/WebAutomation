@@ -25,8 +25,7 @@ public class TC010BookingPageNavigationTabsTest extends BaseClass {
 		if (bookingpage.managebookingtext().contains("Manage Booking")) {
 			test.pass("Navigation tabs test passed");
 		} else
-			test.fail("Navigation tabs test failed");
-	}
+			test.fail("Navigation tabs test failed");}
 
 }
 

@@ -29,6 +29,6 @@ public class TC007OnewayTripBookingTest extends BaseClass {
 		if (details.paymenterrorText().contains("Either Card Number or Card Pin is Incorrect.")) {
 			test.pass("Flight booking test passed");
 		} else
-			test.fail("Flight Booking test failed");
+			test.fail("Flight Booking test failed!");
 	}
 }

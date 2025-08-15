@@ -27,7 +27,6 @@ public class TC012FlightStatusTest extends BaseClass {
 		if (bookingpage.flightStatusMessage().contains("selected airport local time")) {
 			test.pass("Flight Status test passed");
 		} else
-			test.fail("Flight Status test failed");
-	}
+			test.fail("Flight Status test failed");}
 }
 

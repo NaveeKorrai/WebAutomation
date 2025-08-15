@@ -27,7 +27,7 @@ public class TC004SignUpwithInvalidDetailsTest extends BaseClass {
 		if (signup.signMandatoryError().contains("Please fill all mandatory fields")) {
 			test.pass("SignUp with invalid details test passed");
 		} else
-			test.fail("SignUp with invalid details test failed");
+			test.fail("SignUp with invalid details test failed!");
 
 		
 	}
