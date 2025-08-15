@@ -11,14 +11,12 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.34.0</version>
 		</dependency>
-		
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.1.1</version>
-</dependency>
 
-
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -59,7 +57,7 @@
 
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-	<!-- 	<dependency>
+		<!-- 	<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>

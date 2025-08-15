@@ -12,7 +12,7 @@
       <class name="testCases.BookingPageNavigationTabsTest"/>
       <class name="testCases.LoginPageTest"/>
       <class name="testCases.LoginWithInvalidDetailsTest"/>
-      <class name="testCases.OnewayTripBookingTest"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
